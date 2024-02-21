@@ -4,3 +4,7 @@
   background-size: cover;
 
 }
+.newsletter::placeholder{
+  color: wheat;
+  font-size: 0.8rem;
+}
