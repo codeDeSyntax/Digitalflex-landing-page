@@ -1,5 +1,5 @@
-import vector from '../../public/vector.jpg'
-import logo from  '../assets/logo.png'
+import vector from '../../Images/vector.jpg'
+import logo from  '../../Images/logo.png'
 import '../../src/App.css'
 const Footer = () => {
   return (
