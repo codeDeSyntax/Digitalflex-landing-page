@@ -7,10 +7,11 @@ import WhatWeDeliver from "./components/WhatWeDeliver"
 import WhatOthersSay from "./components/WhatOthersSay"
 import IndustriesWeServe from "./components/IndustriesWeServe"
 import Footer from "./components/Footer"
+
 function App() {
   return (
     <>
-    <main className='w-full md:h-screen h-[130vh]  bg-[url(boyworking.jpg)] bg-cover '>
+    <main className={`w-full md:h-screen h-[130vh]  bg-[url(../../src/assets/boyworking.jpg)] bg-cover `}>
       <Navbar/>
       <WelcomeText/>
       <Values/>
