@@ -1,7 +1,6 @@
-import vector from '../assets/vector.jpg'
-import logo from  '../assets/logo.png'
+import vector from '/vector.jpg'
+import logo from  '/logo.png'
 
-import '../../src/App.css'
 const Footer = () => {
   return (
     <section className='w-full'>
@@ -20,7 +19,7 @@ const Footer = () => {
             </div>
         </div>
         {/* Footer Footer */}
-        <footer className={`bg-[url(../../src/assets/dotted.jpg)] bg-cover w-full h-flex `}>
+        <footer className={`bg-[url(/dotted.jpg)] bg-cover w-full h-flex `}>
             <div className='w-[80%] m-auto flex  md:justify-between md:flex-row flex-col justify-center items-center gap-5 py-10'>
             <div>
                <div className='flex items-center'> 

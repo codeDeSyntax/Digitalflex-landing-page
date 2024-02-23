@@ -49,10 +49,10 @@ const Services = () => {
 
       <div className="grid md:grid-cols-3 grid-cols-2  w-[80%] m-auto md:gap-x-5 gap-x-2 gap-y-5 mt-12 pb-4">
         {services.map((each) => (
-          <div key={each.id} className="h-[40vh]lg:h-[20vh] md:h-[40vh] md:w-[70%] w-[90%] transform skew-x-12 mr-4 shadow-sm shadow-black flex flex-col items-center rounded-md p-2 gap-2 hover:scale-110 bg-white duration-100">
+          <div key={each.id} className="h-[40vh]lg:h-[20vh] md:h-[40vh] md:w-[70%] w-[90%] transform skew-x-12 mr-4 shadow-sm shadow-black flex flex-col items-center rounded-md p-2 gap-2 hover:scale-110 bg-[#0c1a3f] duration-100">
             <FaSave size={80} color={each.color}/>
-           <p className={`font-bold md:text-2xl`}> {each.title}</p>
-           <a href="" className={`text-[${each.color}]`}>→ Learn more</a>
+           <p className={`font-bold md:text-2xl text-white`}> {each.title}</p>
+           <a href="" className={`text-gray-500`}>→ Learn more</a>
           </div>
         ))}
       </div>
