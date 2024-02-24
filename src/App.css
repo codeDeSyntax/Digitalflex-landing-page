@@ -8,3 +8,8 @@
   color: wheat;
   font-size: 0.8rem;
 }
+.main{
+  background: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.7) ), url('/boyworking.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -11,7 +11,7 @@ import Footer from "./components/Footer"
 function App() {
   return (
     <>
-    <main className={`w-full md:h-screen h-[130vh]  bg-[url(/boyworking.jpg)] bg-cover `}>
+    <main className={`w-full md:h-screen h-[130vh]   bg-cover main`}>
       <Navbar/>
       <WelcomeText/>
       <Values/>
