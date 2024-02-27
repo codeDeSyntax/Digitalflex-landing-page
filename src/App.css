@@ -1,15 +1,16 @@
-.wwd{
-  background: linear-gradient( rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.7) ), url('/bb.jpg');
+.wwd {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url("/bb.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.newsletter::placeholder{
+.newsletter::placeholder {
   color: wheat;
   font-size: 0.8rem;
 }
-.main{
-  background: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.7) ), url('/boyworking.jpg');
+.main {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("/boyworking.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
